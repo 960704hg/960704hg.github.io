@@ -1,32 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김현솔 포토폴리오 2023</title>
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery.fullpage.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/portfolio.js"></script>
 </head>
 
 <body>
-    <h1>김현솔의 첫번째 html 파일입니다.</h1>
-
-    <ul>
-        <li><a href="html01.html" target="_blank">html 01</a></li>
-    </ul>
-
-    <section>
-        <h2>선택자실습</h2>
+    <header class="header">
+        <h1>
+            <a href="#main">김현솔 포토폴리오 2023</a>
+        </h1>
+    </header>
+    <nav class="gnb">
         <ul>
-            <li><a href="selector01.html" target="_blank">selector01</a></li>
-            <li><a href="selector02.html" target="_blank">selector02</a></li>
+            <li><a href="#main">menu01</a></li>
+            <li><a href="#portfolio01">menu02</a></li>
+            <li><a href="#portfolio02">menu03</a></li>
+            <li><a href="#portfolio03">menu04</a></li>
+            <li><a href="#portfolio04">menu04</a></li>
+            <li><a href="#portfolio05">menu04</a></li>
         </ul>
-        <h2>리셋실습</h2>
-        <ul>
-            <li><a href="reset.html" target="_blank">reset</a></li>
-            <li><a href="display01.html" target="_blank">display01</a></li>
-            <li><a href="layout01.html" target="_blank">layout01</a></li>
-        </ul>
+    </nav>
+    <div class="main">
+        <section class="section">main</section>
+        <section class="section">portfolio01</section>
+        <section class="section">portfolio02</section>
+        <section class="section">portfolio03</section>
+        <section class="section">portfolio04</section>
+        <section class="section">portfolio05</section>
+    </div>
+    <div class="mopen">
+        <button>open</button>
+    </div>
+    <div class="toTop">
+        <a href="#main">UP</a>
+    </div>
+    <footer class="footer">
+        &copy;kim 2023 portfolio
+    </footer>
 </body>
 
 </html>
